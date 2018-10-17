@@ -30,7 +30,7 @@ const defaultProps = {
   onParseError() {},
 };
 
-class Vega extends React.Component {
+class Vega extends React.PureComponent {
 
   static isSamePadding(a, b) {
     if (isDefined(a) && isDefined(b)) {
